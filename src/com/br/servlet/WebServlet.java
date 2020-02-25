@@ -14,7 +14,7 @@ public class WebServlet extends HttpServlet  {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        router.maping(req, resp);
+        router.mapping(req, resp);
     }
 
     public Router getRouter() {

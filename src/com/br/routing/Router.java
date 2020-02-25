@@ -42,7 +42,7 @@ public class Router implements Initializer {
         });
     }
     
-    public void maping(HttpServletRequest req, HttpServletResponse res) {
+    public void mapping(HttpServletRequest req, HttpServletResponse res) {
         String context = req.getContextPath();
         String path = null;
         if (context.trim().isEmpty())
